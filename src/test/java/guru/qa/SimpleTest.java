@@ -8,7 +8,7 @@ public class SimpleTest {
 
     @Test
     public void assertTrueTest() {
-        assertTrue(3 > 2);
+        assertTrue(3 > 0);
     }
 
     @Test
