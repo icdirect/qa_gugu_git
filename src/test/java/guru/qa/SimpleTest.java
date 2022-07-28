@@ -1,8 +1,10 @@
 package guru.qa;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class SimpleTest {
 
@@ -15,5 +17,10 @@ public class SimpleTest {
     @Test
     public void assertFalseTest() {
         assertTrue(3 < 2);
+    }
+
+    @Test
+    public void assertAnotherFailTest() {
+        fail("another fail");
     }
 }
