@@ -20,7 +20,8 @@ public class SimpleTest {
     }
 
     @Test
-    public void assertAnotherFailTest() {
-        fail("another fail");
+    public void assertFailTest() {
+        Assertions.fail();
+
     }
 }
