@@ -5,9 +5,14 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SimpleTest {
-    @Test
 
+    @Test
     public void assertTrueTest() {
         assertTrue(3 > 2);
+    }
+
+    @Test
+    public void assertFalseTest() {
+        assertTrue(3 < 2);
     }
 }
